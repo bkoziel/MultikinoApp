@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_repertoire">
+
+    <fragment
+        android:id="@+id/nav_repertoire"
+        android:name="pl.sanders.multikinoapp.ui.repertoire.RepertoireFragment"
+        android:label="Repertuar"
+        tools:layout="@layout/fragment_repertoire" />
+
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="pl.sanders.multikinoapp.ui.event.EventFragment"
+        android:label="Wydarzenia"
+        tools:layout="@layout/fragment_event" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="pl.sanders.multikinoapp.ui.info.InfoFragment"
+        android:label="Newsy"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_promo"
+        android:name="pl.sanders.multikinoapp.ui.promo.PromoFragment"
+        android:label="Promocje"
+        tools:layout="@layout/fragment_promo" />
+
+    <fragment
+        android:id="@+id/nav_localization"
+        android:name="pl.sanders.multikinoapp.ui.localization.LocalizationFragment"
+        android:label="Dojazd i parking"
+        tools:layout="@layout/fragment_localization" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="pl.sanders.multikinoapp.ui.contact.ContactFragment"
+        android:label="Zadzwoń"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_cennik"
+        android:name="pl.sanders.multikinoapp.ui.cennik.CennikFragment"
+        android:label="Cennik"
+        tools:layout="@layout/fragment_cennik" />
+</navigation>

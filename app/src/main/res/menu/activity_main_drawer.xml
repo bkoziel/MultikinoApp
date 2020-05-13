@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_repertoire"
+            android:icon="@drawable/ic_movie_filter_white_24dp"
+            android:title="Repertuar" />
+        <item
+            android:id="@+id/nav_cennik"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Cennik" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_white_24dp"
+            android:title="Newsy" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event_available_white_24dp"
+            android:title="Wydarzenia" />
+        <item
+            android:id="@+id/nav_promo"
+            android:icon="@drawable/ic_stars_white_24dp"
+            android:title="Promocje" />
+        <item
+            android:id="@+id/nav_localization"
+            android:icon="@drawable/ic_pin_drop_white_24dp"
+            android:title="Dojazd i parking" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_local_phone_white_24dp"
+            android:title="Zadzwon" />
+        <item
+            android:title="Kontakt"
+            android:visible="false">
+            <menu></menu>
+        </item>
+    </group>
+
+</menu>
