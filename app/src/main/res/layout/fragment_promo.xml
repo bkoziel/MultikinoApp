@@ -36,7 +36,7 @@
         app:srcCompat="@drawable/promo1" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonPromoMore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="293dp"

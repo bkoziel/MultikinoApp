@@ -11,6 +11,7 @@ public class RepertoireViewModel extends ViewModel {
     public RepertoireViewModel() {
         mText = new MutableLiveData<>();
         //mText.setValue("Tu będą filmy");
+
     }
 
     public LiveData<String> getText() {

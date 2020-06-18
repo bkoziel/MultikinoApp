@@ -15,7 +15,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import pl.sanders.multikinoapp.R;
-import pl.sanders.multikinoapp.ui.info.InfoViewModel;
 
 public class CennikFragment extends Fragment {
 

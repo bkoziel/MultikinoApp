@@ -9,7 +9,7 @@ public class CennikViewModel extends ViewModel {
 
     public CennikViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Aktualny cennik:");
+        //mText.setValue("Aktualny cennik:");
     }
 
     public LiveData<String> getText() {
